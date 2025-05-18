@@ -7,12 +7,21 @@
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
+   <!-- Promo Banner -->
+  <div class="promo-banner">
+    Learn front-end development with high quality, interactive courses from <a href="#">Scrimba</a>. Enroll now!
+  </div>
   <!-- Top Navigation -->
   <header class="top-nav">
-    <div class="logo">mdn web docs</div>
-    <nav>
+    <nav class="nav-links">
+      <div class="logo"><span class="badge">M</span>mdn web docs</div>
       <a href="#">References</a>
       <a href="#">Learn</a>
+      <a href="#">Plus</a>
+      <a href="#" class="curriculum">
+        Curriculum
+        <span class="badge">NEW</span>
+      </a>
       <a href="#">Blog</a>
       <a href="#">Tools</a>
     </nav>
@@ -22,7 +31,7 @@
       <button class="login-btn">Login</button>
     </div>
   </header>
-
+  
   <!-- Main Layout -->
   <div class="container">
     <!-- Left Sidebar -->
@@ -48,7 +57,7 @@
         <li><details><summary>At-rules</summary></details></li>
         <li><details><summary>Functions</summary></details></li>
         <li><details><summary>Types</summary></details></li>
-        <li><details><summary>Guides</summary>
+        <li><details><summary>Guides</summary></details></li>
         <li><details><summary>Animations</summary></details></li>
         <li><details><summary>Backgrounds and Borders</summary></details></li>
         <li><details><summary>Box Alignment</summary></details></li>
@@ -141,6 +150,7 @@
           Now it’s time to look at how to correctly lay out your boxes in relation to one another, and the browser viewport. This module looks at floats, positioning, other modern layout tools, and building responsive designs that will adapt to different devices, screen sizes, and resolutions.
         </p>
       </section>
+      
 
       <section class="reference-block">
   <h1>Reference</h1>
@@ -284,7 +294,5 @@
     </p>
   </div>
 </footer>
-
-
 </body>
 </html>
